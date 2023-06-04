@@ -1,0 +1,224 @@
+a{
+	text-decoration: none;
+  }
+  .sign{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+  }
+  
+  .sign .sign-c{
+	width: 70%;
+	margin: auto;
+	/* height: 90%; */
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .sign .sign-c .sign-img{
+	width: 42%;
+	height: 100%;
+  }
+  .sign .sign-c .sign-img img{
+	width: 80%;
+	height: 100%;
+	margin: auto;
+  }
+  .sign .sign-c .form-c{
+	width: 50%;
+	background: #FFA628;
+	border-radius: 20px;
+	padding: 1rem 0;
+  }
+  .sign .sign-c .form-c form{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+  }
+  .sign .sign-c .form-c form h2{
+	padding: 0;
+	margin: 0;
+	font-weight: 600;
+	font-size: 20px;
+	color: #1A144A;
+  
+  }
+  .sign .sign-c .form-c form p {
+	padding: 0;
+	margin: 0;
+	width: 80%;
+	margin: auto;
+	margin-top: 7px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.6);
+  
+  
+  }
+  .input-f{
+	width: 95%;
+	margin: auto;
+	padding: 0 10px;
+	border-radius: 8px;
+	height: 38px;
+	background-color: #fff;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  .select{
+	text-align: center;
+	margin-top: 20px;
+  }
+   .input-f .input{
+	border: none;
+	outline: none;
+	width: 95%;
+	background-color: transparent;
+  }
+   .input-f img {
+	width: 15px;
+	height: 15px;
+  }
+  
+  
+  
+  .sign .sign-c .form-c .forgot{
+	width: 100%;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .sign .sign-c .form-c .forgot .radio{
+	color: rgba(0, 0, 0, 0.6);
+	width: 50%;
+	text-align: start;
+  }
+  .sign .sign-c .form-c .forgot span{
+	color: #000;
+	text-align: end;
+	padding: 0;
+	margin: 0;
+  }
+  
+  
+  .sign .sign-c .form-c form .sub-btn{
+	background: #1A144A;
+	border-radius: 20px;
+	height: 40px;
+	color: #fff;
+	width: 95%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 1rem;
+	cursor: pointer;
+  }
+  .sign .sign-c .form-c form .up{
+	color: #fff;
+	padding: 3px;
+	border-radius: 5px;
+  }
+  .sign .sign-c .form-c form .dont {
+	font-weight: 500;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.6);
+  }
+  
+  
+  
+  /* FORGOT PASSWORD  */
+  
+  .forgot-c {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	height: 98vh;
+  }
+  
+  .forgot-c .f-img {
+	width: 60%;
+	height: 100%;
+  }
+  
+  .forgot-c .f-img img {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .forgot-c .f-form {
+	width: 40%;
+	/* margin-top: 4rem; */
+  }
+  
+  .forgot-c .f-form form {
+	width: 90%;
+	background-color: #FFA628;
+	height: auto;
+	padding: 1rem 0;
+	border-radius: 8px;
+	text-align: center;
+  }
+  
+  .forgot-c .f-form form h3 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28px;
+  }
+  
+  .forgot-c .f-form form p {
+	font-weight: 500;
+	font-size: 15.5px;
+	line-height: 19px;
+  }
+  
+  .forgot-c .f-form form .email-input {
+	width: 85%;
+	margin: auto;
+	text-align: start;
+  }
+  
+  .forgot-c .f-form form .email-input label {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	margin-bottom: 12px;
+  }
+  
+  .forgot-c .f-form form .email-input input {
+	width: 100%;
+	height: 63px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	margin: 10px 0;
+  }
+  
+  .forgot-c .f-form form .f-send{
+	width: 45%;
+	height: 45px;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-weight: 600;
+	font-size: 15px;
+	background: #1A144A;
+	border-radius: 15px;
+	cursor: pointer;
+  }
+  
+  /* CHANGE PASSWORD */
+  .forgot-c .f-form .change{
+	padding-bottom: 35px;
+  }
+  .forgot-c .f-form .change .input-f{
+	width: 85%;
+	margin: auto;
+	margin-bottom: 15px;
+  }
+  
